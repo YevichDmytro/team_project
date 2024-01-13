@@ -1,67 +1,75 @@
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-ul, ol {
-    margin: 0;
-    padding-left: 0;
-    list-style: none;
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-    background-color: #FFF;
-    color: #2E363E;
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  color: #2e363e;
 }
 
 .container {
-    margin: 0 auto;
-    max-width: 1194px;
-    padding: 0 15px;
+  margin: 0 auto;
+  max-width: 1194px;
+  padding: 0 15px;
 }
 
 .header {
-    border-bottom: 3px solid #2C7250;
+  border-bottom: 3px solid #2c7250;
 }
 
 .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-logo {
-    color: #2C7250;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 25px;
-        font-weight: 900;
-        line-height: 1.5;
-        text-transform: uppercase;
+  color: #2c7250;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 1.5;
+  text-transform: uppercase;
 }
 
-.header-nav {}
+.header-nav {
+}
 
 .header-list {
-    display: flex;
-    gap: 40px;
+  display: flex;
+  gap: 40px;
 }
 
 /* .header-list-item:not(:last-child) {
@@ -69,25 +77,68 @@ body {
 } */
 
 .header-link {
-    color: #2E363E;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 1.5;
-        padding: 56px 0;
-        display: block;
+  color: #2e363e;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 56px 0;
+  display: block;
 }
 
 .header-link:hover,
 .header-link:focus {
-    color: #2C7250;
+  color: #2c7250;
 }
 
-.header-address {}
+.header-address {
+}
 
 .header-address-link {
-    color: #2C7250;
-        text-align: right;
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 1.52;
+  color: #2c7250;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.52;
+}
+
+.hero-section {
+  padding: 80px 0;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+}
+
+.hero-box {
+}
+
+.hero-title {
+  font-size: 48px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  margin-bottom: 25px;
+}
+
+.hero-text {
+  color: #434b53;
+  font-size: 21px;
+  line-height: 1.6;
+  letter-spacing: -0.009em;
+  margin-bottom: 25px;
+  max-width: 434px;
+}
+
+.hero-button {
+  color: #fff;
+  font-family: inherit;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.43;
+  letter-spacing: -0.009em;
+  border-radius: 5px;
+  background: #2c7250;
+  min-width: 337px;
+  height: 70px;
+  border: none;
 }
