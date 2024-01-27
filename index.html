@@ -60,7 +60,7 @@
               We work only in small towns. Thanks to this, we maintain quality
               and we will not spray
             </p>
-            <button class="hero-button" type="button">
+            <button class="hero-button" type="button" data-modal-open>
               Submit your application
             </button>
           </div>
@@ -252,5 +252,53 @@
         <a href="tel:88006549732">8 (800) 654-97-32</a>
       </address>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-close-btn" type="button" data-modal-close></button>
+        <p class="modal-subtitle">Contact Us</p>
+        <p class="modal-title">
+          <span class="modal-title-part">Contact</span> Us & We Can Work
+          Together
+        </p>
+        <p class="modal-text">
+          Lorem ipsum dolor sit amet consectetur. Adipiscing nisl id at arcu
+          enim id gravida pulvinar. Tristique consectetur mi curabitur congue
+          enim dignissim
+        </p>
+        <form class="modal-form">
+          <label class="modal-label" for="user-name"
+            ><input
+              type="text"
+              name="user-name"
+              class="modal-input"
+              id="user-name"
+              placeholder="Your Name"
+              required
+              aria-label="name"
+          /></label>
+          <label class="modal-label" for="email"
+            ><input
+              type="email"
+              name="email"
+              class="modal-input"
+              id="email"
+              placeholder="Your Email"
+              required
+              aria-label="email"
+          /></label>
+          <label for="message" class="modal-area">
+            <textarea
+              class="modal-message"
+              name="message"
+              id="message"
+              placeholder="Your Message"
+              aria-label="message"
+            ></textarea>
+          </label>
+          <button class="modal-btn" type="submit">Submit Message</button>
+        </form>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
